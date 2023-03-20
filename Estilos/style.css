@@ -1,0 +1,119 @@
+body {
+    background: rgb(247, 179, 190);
+    max-width: 900px;
+    margin: auto;
+}
+
+.img-logo{
+    width: 180px;
+    padding: 20px;
+}
+
+nav {
+    width: auto;
+    height: auto;
+    background-color: rgb(247, 179, 190);
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 1s all;
+    padding: 20px;
+}
+
+nav ul li:hover{
+    background-color: aliceblue;
+}
+
+.img-logo-redes{
+    width: 90px;
+    padding: 0px;
+}
+
+
+nav ul{
+    position: relative;
+    display: inline-flex;
+    top: -100px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+article{
+    border-bottom: 0.5px black solid;
+    text-align: center;
+    padding: 10px;
+}
+
+.video1{
+    width: 25%;
+    padding: 8px;
+}
+
+
+.b1, .t1{
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+}
+
+.b2, .t2{
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+}
+
+.b3, .t3{
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+}
+
+.b4, .t4{
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+}
+
+.botoninfo{
+    text-align: center;
+    background-color: rgba(250, 105, 129, 0.801);
+    padding: 10px;
+    transition: 1s all;
+}
+.botoninfo:hover{
+    background-color: blueviolet;
+}
+
+div a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.redes a{
+    color: black;
+display: inline-block;
+font-size:large;
+}
+
+body{
+    text-align:center
+    ;
+}
+footer{
+    background-color: rgb(78, 74, 75);
+    color: aliceblue;
+    line-height: 40px;
+    padding: 15px;
+}
+
