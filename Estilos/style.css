@@ -9,6 +9,7 @@ body {
     padding: 20px;
 }
 
+
 nav {
     width: auto;
     height: auto;
@@ -31,6 +32,11 @@ nav ul li:hover{
     padding: 0px;
 }
 
+.nav2{
+    position: static;
+    display: inline-flex;
+    top: 00px;
+}
 
 nav ul{
     position: relative;
@@ -66,6 +72,8 @@ article{
     padding: 20px;
 }
 
+
+
 .b2, .t2{
     display: inline-block;
     width: 40%;
@@ -89,7 +97,12 @@ article{
     background-color: rgba(250, 105, 129, 0.801);
     padding: 10px;
     transition: 1s all;
+    text-decoration: none;
+    text-decoration-color: aliceblue;
+    color: aliceblue;
 }
+
+
 .botoninfo:hover{
     background-color: blueviolet;
 }
@@ -106,6 +119,7 @@ display: inline-block;
 font-size:large;
 }
 
+
 body{
     text-align:center
     ;
@@ -116,4 +130,14 @@ footer{
     line-height: 40px;
     padding: 15px;
 }
+
+.titulitos{
+    padding-top: 90px;
+}
+.carousel {
+    display: inline-block;
+    width: 50%;
+    padding: 20px;
+}
+
 
